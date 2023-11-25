@@ -3,55 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tradutor Simples</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        main {
-            max-width: 600px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #inputText {
-            width: 100%;
-            padding: 0.5em;
-            margin-bottom: 1em;
-        }
-
-        #outputText {
-            width: 100%;
-            padding: 0.5em;
-            margin-bottom: 1em;
-            background-color: #f4f4f4;
-        }
-
-        #translateButton {
-            background-color: #333;
-            color: #fff;
-            padding: 0.5em 1em;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <title>Pingui Translator</title>
+    <link rel="icon" href="Icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Tradutor Simples</h1>
+        <h1>Pingui Translator (Noooot NonotNoot)</h1>
+    </header>
+
+    <header>
+        <h1>AVAILABLE ONLY IN PORTUGUESE (BRAZIL)</h1>
     </header>
 
     <main>
@@ -60,14 +23,7 @@
         <div id="outputText"></div>
     </main>
 
-    <script>
-        document.getElementById('translateButton').addEventListener('click', function() {
-            var inputText = document.getElementById('inputText').value;
-            // Aqui você pode adicionar a lógica de tradução usando uma API de tradução, por exemplo.
-            // Vou usar um exemplo simples apenas para ilustrar.
-            var translatedText = inputText.split('').reverse().join('');
-            document.getElementById('outputText').innerText = translatedText;
-        });
-    </script>
+    <script src="wordStorage.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
