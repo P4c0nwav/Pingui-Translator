@@ -36,5 +36,6 @@ var wordStorage = {
     'translator': 'NonotNoot',
     'banana': 'Nototo',
     'felps': 'Felnoot',
+    'sigma': 'uma raça maluca de pessoas homens',
     // Adicione mais palavras conforme necessário.
 };
