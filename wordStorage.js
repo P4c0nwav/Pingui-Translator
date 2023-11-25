@@ -35,5 +35,6 @@ var wordStorage = {
     'pingui': 'Noooot',
     'translator': 'NonotNoot',
     'banana': 'Nototo',
+    'felps': 'Felnoot',
     // Adicione mais palavras conforme necessário.
 };
